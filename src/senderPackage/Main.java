@@ -1,3 +1,8 @@
+/***********************************************
+ * main() for Sender class                     *
+ *                                             *
+ * Bill Nicholson                              *
+ ***********************************************/
 package senderPackage;
 
 public class Main {

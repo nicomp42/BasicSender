@@ -1,7 +1,9 @@
-/**
- * A basic example of a TCP/IP client acting as a sender.
- * 
- */
+/****************************************************************************************
+ * A basic example of a TCP/IP client acting as a sender.                               *
+ * This class opens a socket and sends on a port                                        *
+ * Bill Nicholson                                                                       *
+ * nicholdw@ucmail.uc.edu                                                               *
+ ****************************************************************************************/
 package senderPackage;
 
 import java.io.BufferedReader;
