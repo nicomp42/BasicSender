@@ -53,7 +53,8 @@ public class Sender extends Thread {
         	InputStreamReader converter = new InputStreamReader(System.in);
         	BufferedReader consoleIn = new BufferedReader(converter);
         	ObjectOutputStream oos = new ObjectOutputStream(clientSocket.getOutputStream());
-	        while (true) {
+	        // Loop foerver, wait for user input, then send it out the port to the Listener
+        	while (true) {
 	        	String msg = consoleIn.readLine();
 	        	oos.writeObject(msg);
 		        System.out.println("message sent.");
